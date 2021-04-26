@@ -24,6 +24,7 @@ Serial.begin(9600);  // start serial communication at 9600bps serial.begin(9600)
 BT.begin(9600);      // for the serial port to start it
 Serial.println("New code has been uploaded successfully");
 pinMode(enable1, OUTPUT); // sets the digitals as output
+
 pinMode(in_put1, OUTPUT);
 pinMode(in_put3, OUTPUT);
 pinMode(in_put4, OUTPUT); 
