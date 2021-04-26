@@ -2,7 +2,7 @@
 SoftwareSerial BT(2, 3); //TX, RX respetively          
 
                   
-                  //H-bridge pinout, these are the variables connected to the Arduino board 
+                  //these are the variables connected to the Arduino board 
 int enable1= 10;                
 int in_put1 = 9;                    
 int  in_put2 = 8;                    
