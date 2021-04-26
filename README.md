@@ -1,8 +1,7 @@
 #include <SoftwareSerial.h> // Decleration for Tx and Rx
 SoftwareSerial BT(2, 3); //TX, RX respetively          
 
-                  
-                  //these are the variables connected to the Arduino board 
+           
 int enable1= 10;                
 int in_put1 = 9;                    
 int  in_put2 = 8;                    
