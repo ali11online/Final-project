@@ -150,15 +150,19 @@ while (BT.available()){   //  if there is data available on the serial port or i
 
 if (modeFlag == 0){
   if(digitalRead(Right) == 0 && digitalRead(Left) == 0){    //if Right Sensor and Left Sensor are not detecting a black line
+  
     forward();  // it will move forward                                                  
   }
   if(digitalRead(Right) == 1 && digitalRead(Left) == 0){    //if Right Sensor is detecting a Black line and Left Sensor is not detecting
+  
     turnRight(); // it will turn right
   }
   if(digitalRead(Right) == 0 && digitalRead(Left) == 1){    //if Right Sensor is not detecting a black line and Left Sensor is detecting 
+  
     turnLeft();  // it will turn left                                         
     }
   if (digitalRead(Right) == 1 && digitalRead(Left) == 1){   //if Right Sensor and Left Sensor are both detecting the Black line or any black color
+  
     Stop();}     // it will stop        
   }
 }
